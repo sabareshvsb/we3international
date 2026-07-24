@@ -17,7 +17,7 @@ export default function Contact() {
 
             <div>
               <h3 className="font-bold text-green-700">📍 Address</h3>
-              <p>
+              <p className="text-center text-gray-600 mt-4">
                 No. 9, Srinivasa Illam,<br />
                 Narayanan Nagar,<br />
                 Gobichettipalayam, Tamil Nadu, India.
