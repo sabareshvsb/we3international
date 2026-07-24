@@ -26,13 +26,13 @@ export default function Contact() {
 
             <div>
               <h3 className="font-bold text-green-700">📧 Email</h3>
-              <p>we3intl@gmail.com</p>
+              <p className="text-gray-600 mt-4">we3intl@gmail.com</p>
             </div>
 
             <div>
               <h3 className="font-bold text-green-700">📞 Phone</h3>
-              <p>+91 9003788941</p>
-              <p>+91 74184 85677</p>
+              <p className="text-gray-600 mt-4">+91 9003788941</p>
+              <p className="text-gray-600 mt-4">+91 74184 85677</p>
             </div>
 
             <a
