@@ -3,7 +3,11 @@
 
 @theme {
   --font-jakarta: 'Plus Jakarta Sans', sans-serif;
+  
+  /* Optional: Make Plus Jakarta Sans your default global font everywhere */
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
 }
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -26,5 +30,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* REMOVED hardcoded Arial, now it inherits correctly or uses font-sans */
 }
