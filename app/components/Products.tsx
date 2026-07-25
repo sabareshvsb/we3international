@@ -39,7 +39,7 @@ export default function Products() {
                 className="w-full h-56 object-cover"
               />
 
-              <div className="p-5 flex flex-col flex-grow font-['Plus_Jakarta_Sans',sans-serif]">
+              <div className="p-5 flex flex-col flex-grow">
                 <h3 className="text-black text-xl font-bold">
                   {product.name}
                 </h3>
