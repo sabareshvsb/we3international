@@ -30,5 +30,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  /* REMOVED hardcoded Arial, now it inherits correctly or uses font-sans */
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
