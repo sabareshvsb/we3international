@@ -48,9 +48,18 @@ export default function Products() {
                   {product.price}
                 </p>
 
-                <button className="mt-5 w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg">
-                  Enquire Now
-                </button>
+               <a
+  href={`https://wa.me/919003788941?text=${encodeURIComponent(
+    `Hi WE3 International, I'm interested in ${product.name}. Please share more details.`
+  )}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="block mt-5"
+>
+  <button className="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg">
+    Enquire Now
+  </button>
+</a>
               </div>
             </div>
           ))}
