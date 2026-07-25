@@ -39,7 +39,7 @@ export default function Products() {
                 className="w-full h-56 object-cover"
               />
 
-              <div className="p-5">
+              <div className="p-5" class='font-serif'>
                 <h3 className="text-black text-xl font-bold">
                   {product.name}
                 </h3>
