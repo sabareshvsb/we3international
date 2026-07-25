@@ -3,21 +3,12 @@
 
 @theme {
   --font-jakarta: 'Plus Jakarta Sans', sans-serif;
-  
-  /* Optional: Make Plus Jakarta Sans your default global font everywhere */
   --font-sans: 'Plus Jakarta Sans', sans-serif;
 }
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
