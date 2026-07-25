@@ -29,7 +29,7 @@ export default function Products() {
           {products.map((product) => (
             <div
               key={product.name}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition"
+              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition flex flex-col"
             >
               <Image
                 src={`/fruits/${product.image}`}
@@ -39,27 +39,29 @@ export default function Products() {
                 className="w-full h-56 object-cover"
               />
 
-              <div className="p-5" >
+              <div className="p-5 flex flex-col flex-grow">
                 <h3 className="text-black text-xl font-bold">
                   {product.name}
                 </h3>
 
-                <p className="text-700 font-bold mt-2 text-black">
+                <p className="font-bold mt-2 text-black">
                   {product.price}
                 </p>
 
-               <a
-  href={`https://wa.me/919003788941?text=${encodeURIComponent(
-    `Hi WE3 International, I'm interested in ${product.name}. Please share more details.`
-  )}`}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="block mt-5"
->
-  <button className="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg">
-    Enquire Now
-  </button>
-</a>
+                <div className="mt-auto pt-5">
+                  <a
+                    href={`https://wa.me/919003788941?text=${encodeURIComponent(
+                      `Hi WE3 International, I'm interested in ${product.name}. Please share more details.`
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full"
+                  >
+                    <button className="w-full bg-green-600 hover:bg-green-700 text-white py-3 rounded-lg transition">
+                      Enquire Now
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           ))}
