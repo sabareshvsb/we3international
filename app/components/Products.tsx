@@ -40,7 +40,7 @@ export default function Products() {
               />
 
               <div className="p-5">
-                <h3 className="text-xl font-bold">
+                <h3 className="text-black text-xl font-bold">
                   {product.name}
                 </h3>
 
