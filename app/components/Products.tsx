@@ -16,7 +16,7 @@ export default function Products() {
       id="products"
       className="py-20 bg-gradient-to-b from-white to-green-50"
     >
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6 font-['Plus_Jakarta_Sans',sans-serif]">
         <h2 className="text-5xl font-bold text-center text-green-700">
           Our Products
         </h2>
