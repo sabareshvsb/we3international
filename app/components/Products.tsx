@@ -44,7 +44,7 @@ export default function Products() {
                   {product.name}
                 </h3>
 
-                <p className="text-black-700 font-bold mt-2">
+                <p className="text-700 font-bold mt-2 text-black">
                   {product.price}
                 </p>
 
