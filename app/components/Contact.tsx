@@ -36,7 +36,7 @@ export default function Contact() {
             </div>
 
             <a
-              href="https://wa.me/919003789441"
+              href="https://wa.me/919003788941"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-6 bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition"
